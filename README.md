@@ -2,7 +2,17 @@
 
 ## Usage
 
-<code>./find-doc.sh word-to-be-searched /home/myuser/folder-to-search /home/myuser/destination-folder</code>  
+<code>./find-and-copy-photos.sh word-to-be-searched /home/myuser/folder-to-search /home/myuser/destination-folder</code>  
+
+## Commands
+
+```
+sudo apt update
+
+sudo apt install liblept5 libtesseract4 tesseract-ocr-eng tesseract-ocr-osd libxcb-cursor0
+
+sudo apt-get --fix-broken install tesseract-ocr
+```
 
 ## Links
 
