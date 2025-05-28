@@ -19,7 +19,7 @@ Examples of usage:
 
 tesseract -v
 tesseract IMG-20240619-WA0005.jpg output
-tesseract IMG-20240619-WA0005.jpg stdout --dpi 224 | tr '\n' '
+tesseract IMG-20240619-WA0005.jpg stdout --dpi 224 | tr '\n' ' '
 
 ```
 
